@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+      border: 1px solid transparent;
+    }
+
+    nav ul li a:hover {
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+
+    /* Main Content */
+    main {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .carousel img {
+      max-width: 100%;
+      height: auto;
+      display: none;
+    }
+
+    .carousel img:first-child {
+      display: block;
+    }
+
+    /* Footer Section */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">Car wash</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#register">Registration</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <h1>Welcome to Our Website</h1>
+    <div class="carousel">
+      <img src="logo.jpeg" alt="Image 1">
+    </div>
+    <p>Explore our site to learn more about us.</p>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Simple Website. All rights reserved.</p>
+    <p>Contact us at: info@example.com</p>
+  </footer>
+</body>
+</html>
